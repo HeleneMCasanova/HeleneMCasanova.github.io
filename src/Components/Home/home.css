@@ -1,0 +1,31 @@
+.mainTextContainer {
+    width: 60%; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.mainDropdownContainer {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.dropdownTextContainerOne {
+    display:grid; 
+    grid-template-columns: auto auto; 
+    margin-bottom: 4vh;
+}
+
+.dropdownStyles {
+    margin-left: -10vw;
+}
+
+.dropdownTextContainerTwo {
+    display:grid; 
+    grid-template-columns: auto auto; 
+}
+
+.displayResultContainer {
+    margin-top: 4vh;
+    text-align: center;
+}
