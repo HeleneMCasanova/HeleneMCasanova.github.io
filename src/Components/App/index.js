@@ -13,7 +13,7 @@ function App() {
       <nav className='navigationContainer'>
         <a href="https://salemk12.org/" target='_blank' rel="noreferrer" className='navigationLinkStyles'>SPS Main Website</a>
 
-        <a href="https://salemk12.org/" target='_blank' rel="noreferrer" className='navigationLinkStyles'>Talent Ed</a>
+        <a href="https://salem.tedk12.com/hire/index.aspx" target='_blank' rel="noreferrer" className='navigationLinkStyles'>Talent Ed</a>
       </nav>
 
       <div className='mainContainer'>

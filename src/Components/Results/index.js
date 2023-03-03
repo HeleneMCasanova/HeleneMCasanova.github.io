@@ -139,10 +139,15 @@ const calculated = [
 class Results extends Component {
 
     render ()  {
+        //get the coordinate from url
         var str = window.location.href;
+
+        //parse coordiate out
         var getCoordinate = str.slice(str.indexOf('_') + 1);
         var xCoor = Number(getCoordinate.charAt(0));
         var yCoor = Number(getCoordinate.substring(1, (getCoordinate.length)));
+        
+        //getting the index for the calculated array
         var getIndex = (13*xCoor) + (yCoor-1);
 
         console.log(getCoordinate);
