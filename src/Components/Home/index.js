@@ -1,7 +1,6 @@
-import React, { Component, useState } from 'react';
-import { Link, withRouter } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import Dropdown from '../Dropdowns/Dropdown';
-import Results from '../Results';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/js/dist/dropdown';
