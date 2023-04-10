@@ -29,3 +29,17 @@
     margin-top: 4vh;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .mainTextContainer {
+        width: 94vw; 
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .mainDropdownContainer {
+        width: 94vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+  }

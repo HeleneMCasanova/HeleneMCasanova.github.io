@@ -9,10 +9,6 @@
     text-align: center;
 }
 
-.mainTitleText {
-    
-}
-
 .logoContainer {
     margin-bottom: 5vh;
     width: 40%;
@@ -47,3 +43,20 @@
 .navigationLinkStyles {
     margin-right: 2%;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .mainContainer {
+        width: 100vw;
+        margin-top: 6vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+
+    .logoContainer {
+        margin-bottom: 5vh;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+  }

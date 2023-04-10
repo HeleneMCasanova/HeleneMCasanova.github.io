@@ -172,7 +172,7 @@ class Results extends Component {
                         <h5>{options2[yCoor-1].label}</h5>
                     </div>
 
-                    <div className='resultContainer'>
+                    <div className='resultContainer lastContainer'>
                         <h5>Base Salary</h5>
                         <h5>${calculated[getIndex].label}</h5>
                     </div>
@@ -181,7 +181,7 @@ class Results extends Component {
 
                     <br/>
 
-                    <div>
+                    <div className='lastContainer'>
                         <h5>School-lengh differentials:</h5>
                         <h6>CMS - 4% above base salary</h6>
                         <h6>Saltonstall School - 8% above base salary</h6>
@@ -207,7 +207,7 @@ class Results extends Component {
                         <h6>3 days per year</h6>
                     </div>
 
-                    <div className='resultContainer'>
+                    <div className='resultContainer lastContainer'>
                         <h6>Sick Time</h6>
                         <h6>1.5 days accrued monthly (totalling 15 days per school year)</h6>
                     </div>
