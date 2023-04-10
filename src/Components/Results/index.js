@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Divider from '@mui/material/Divider';
 
 import './results.css';
 
@@ -165,27 +166,55 @@ class Results extends Component {
                         <h5>Educational Degree</h5>
                         <h5>{options[xCoor].label}</h5>
                     </div>
+
                     <div className='resultContainer'>
                         <h5>Years of Experience</h5>
                         <h5>{options2[yCoor-1].label}</h5>
                     </div>
+
                     <div className='resultContainer'>
                         <h5>Base Salary</h5>
                         <h5>${calculated[getIndex].label}</h5>
                     </div>
 
-                    <div className='resultContainer'>
-                        <h5>Pay for two PD days</h5>
-                        <h5>?</h5>
+                    <Divider variant="middle" style={{ background: 'black' }} />
+
+                    <br/>
+
+                    <div>
+                        <h5>School-lengh differentials:</h5>
+                        <h6>CMS - 4% above base salary</h6>
+                        <h6>Saltonstall School - 8% above base salary</h6>
+                        <h6>Bentley Academy Innovation School - 8% above base salary</h6>
                     </div>
+
+                    <Divider variant="middle" style={{ background: 'black' }} />
+
+                    <br/>
+
                     <div className='resultContainer'>
-                        <h5>Pay for 5 days sick time</h5>
-                        <h5>?</h5>
+                        <h6>Length of Day</h6>
+                        <h6>6-7 hours depending on school</h6>
+                    </div>
+
+                    <div className='resultContainer'>
+                        <h6>Work Year</h6>
+                        <h6>185 days (includes 5 days for professional development plus 25 school-based hours)</h6>
+                    </div>
+
+                    <div className='resultContainer'>
+                        <h6>Personal Days</h6>
+                        <h6>3 days per year</h6>
+                    </div>
+
+                    <div className='resultContainer'>
+                        <h6>Sick Time</h6>
+                        <h6>1.5 days accrued monthly (totalling 15 days per school year)</h6>
                     </div>
 
                 </div>
 
-                <div className='applicationContainer'>
+                {/*<div className='applicationContainer'>
                     <strong>
                         <p>Application Process:</p>
                     </strong>
@@ -196,7 +225,8 @@ class Results extends Component {
                         <li>item 2</li>
                         <li>item 3</li>
                     </ul>
-                </div>
+                </div>*/}
+
             </div>
         );
     }

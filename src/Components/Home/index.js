@@ -54,11 +54,11 @@ class Home extends Component {
             <div className='mainContainer'>
                 
                 <div className='mainTextContainer'>
-                    <p className='mainText'>The TEACHER SALARY ESTIMATOR is a tool for prospective teachers interested in the Salem Public School System. Here, a full annual salary may be calculated, including two important additional annual benefits the system offers: (1) Payment for two full days of STAFF DEVELOPMENT and (2) five days of SICK DAY BUYBACK.</p>
+                    <p className='mainText'>The TEACHER SALARY ESTIMATOR is a tool for prospective teachers interested in the Salem Public School System. Here, a full annual estimated salary may be calculated.</p>
 
                     <p className='mainText'>This tool is for estimation purposes only. It is not a binding agreement. Final salary determination is dependent upon the receipt of verification of employment and OFFICIAL transcripts. Such documentation is to be filed in the Office of Human Resources within thirty (30) days of the first day of employment.</p>
 
-                    <p className='mainText'>INSTRUCTIONS: To calculate a TOTAL annual salary, including the two benefits, please answer the two questions below. When completed, click the DISPLAY RESULTS button, and the full annual salary will be calculated.</p>
+                    <p className='mainText'>INSTRUCTIONS: To calculate a TOTAL annual salary, including the two benefits, please answer the two questions below. When completed, click the 'DISPLAY RESULTS' button, and the full annual salary will be calculated.</p>
 
                 </div>
 
@@ -81,7 +81,7 @@ class Home extends Component {
                 </div>
 
                 <div className='displayResultContainer'>
-                <Link to={`/Results/_${coordinate}`} message={this.state}><Button variant="secondary">Display Result</Button></Link>
+                <Link to={`/Results/_${coordinate}`} message={this.state}><Button variant="secondary">Display Results</Button></Link>
                 </div>
 
             </div>
