@@ -60,12 +60,13 @@ class Home extends Component {
 
                     <p className='mainText'>INSTRUCTIONS: To calculate a TOTAL annual salary, including the two benefits, please answer the two questions below. When completed, click the 'DISPLAY RESULTS' button, and the full annual salary will be calculated.</p>
 
+
                 </div>
 
                 <div className='mainDropdownContainer'>
                     
                     <div className='dropdownTextContainerOne'>
-                        <span className='dropdownText'>What teaching degree do you currently hold? </span>
+                        <span className='dropdownText'>What is the highest degree (plus graduate-level credits) have you earned? </span>
                        
                         <Dropdown options={options} parentCallback = {this.callbackFunctionA}/>
                        
@@ -73,7 +74,7 @@ class Home extends Component {
                     </div>
 
                     <div className='dropdownTextContainerTwo'>
-                        <span className='dropdownText'>Years of teaching experience in Public School sector?</span>
+                        <span className='dropdownText'>Years of full-time teaching experience?</span>
 
                         <Dropdown options={options2} parentCallback = {this.callbackFunctionB}/>
                         

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import Divider from '@mui/material/Divider';
 
 import './app.css';
 import Home from '../Home';
@@ -27,6 +28,7 @@ function App() {
             <h2 className='mainTitleText'>Teacher Salary Estimator</h2>
             <h3 className='mainTitleSubText'>Salem Public Schools</h3>
             <h4 className='mainTitleSubText'>Salem, Massachusetts</h4>
+            <p className='mainTileSubText'>Please Note: Salaries are based on the Salem TU collective bargaining agreement</p>
         </div>
 
       </div>

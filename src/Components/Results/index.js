@@ -177,6 +177,8 @@ class Results extends Component {
                         <h5>${calculated[getIndex].label}</h5>
                     </div>
 
+                    <br/>
+
                     <Divider variant="middle" style={{ background: 'black' }} />
 
                     <br/>
@@ -187,6 +189,8 @@ class Results extends Component {
                         <h6>Saltonstall School - 8% above base salary</h6>
                         <h6>Bentley Academy Innovation School - 8% above base salary</h6>
                     </div>
+
+                    <br/>
 
                     <Divider variant="middle" style={{ background: 'black' }} />
 
